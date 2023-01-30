@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5407179058.js" crossorigin="anonymous"></script>
+    <title>ToDoList</title>
+</head>
+<body>
+    
+    <section class="toDoList-container">
+        <div class="todo-container">
+            <h2>LISTADO DE TAREAS </h2>
+        
+            
+            <form action="">
+                <input type="text" id="input">
+                <button type="submit" id="create-button">+</button>
+            </form>
+        </div>   
+        
+            <div class="initial-msg initial-msg-hidden" id="empty-msg">
+                <p>
+                    SU LISTA DE TAREAS ESTA VACIA
+                </p>
+            </div>
+
+            <ul id="Todos" class="task-list">
+                
+            </ul>
+
+            <button class="delete-all delete-all_hidden" id="button-delete-all"> Delete all</button>
+        
+        
+    </section>
+    <div class="modal toggle-modal" id="modal"> <h3>Ya existe esta tarea</h3> </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
